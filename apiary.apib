@@ -1,0 +1,21 @@
+FORMAT: 1A
+HOST: https://api.nssnow.org/
+
+# NSSnow
+Notes API is a *short texts saving* service similar to its physical paper presence on your table.
+
+## Event Collection [/event]
+### List all events [GET]
++ Response 200 (application/json)
+
+        [
+            {
+                "url": "https://api.nssnow.org/events/2014-courchevel",
+                "attendees": [
+                    {
+                        "name": "Kyle Fuller",
+                        "avatar_url": "http://www.gravatar.com/avatar/d200a17dd269fd4001bacb11662dab4b.png"
+                    }
+                ]
+            }
+        ]
